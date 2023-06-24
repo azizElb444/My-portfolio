@@ -61,3 +61,12 @@ function linkAction() {
 
 }
 navLink.forEach(n => n.addEventListener('click',linkAction))
+
+//====================Typewriter effects=========================
+
+new Typewriter('#typewriter', {
+  strings: ['Aziz Elbelaychy'],
+  autoStart: true,
+  loop:true,
+  cursor:"|"
+});
