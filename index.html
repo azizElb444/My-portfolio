@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Poppins:ital,wght@1,200;1,400;1,500;1,600;1,700;1,800&family=Roboto+Mono:ital,wght@1,400;1,500&family=Roboto:ital@1&display=swap" rel="stylesheet">
     <!--ICONS-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!--MY stylesheet-->
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -47,8 +49,8 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#portfolio" class="nav__link">
-                            <i class="uil uil-scenery nav__icon"></i>Portfolio
+                        <a href="#project" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>Projects
                         </a>
                     </li>
                     <li class="nav__item">
@@ -461,9 +463,64 @@
 
 
 
-        <!-- ----------------------------PORTFOLIO--------------------------- -->
-        <section class="portfolio section" id="portfolio">
-
+        <!-- ----------------------------PROJECTS--------------------------- -->
+        <section class="project section" id="project">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">My most recent projects</span>
+            <div class="blog-slider">
+                <div class="blog-slider__wrp swiper-wrapper">
+                    <!--project 1-->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="/images/tipe.png" alt="project item">
+                        </div>
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code">July 2022</span>
+                            <div class="blog-slider__title">ES au service de l'IR</div>
+                            <div class="blog-slider__text">My first Project that i worked on my CPGE years,it is about a solution of producing electric power to turn a dialysis machine in the rural world so that it helps people infected with kidney failure to do their dialysis sessions there instead of moving to the city</div>
+                            <a href="files/tipe.pdf" download="tipe" class="blog-slider__button button--flex">Demo <i class="uil uil-play button__icon"></i></a>
+                        </div>
+                    </div>
+                    <!--project 2-->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="images/pfa.png" alt="project item">
+                        </div>
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code">June 2023</span>
+                            <div class="blog-slider__title">Plateform de gestion de déliberation des étudiants</div>
+                            <div class="blog-slider__text">it is my 1st year final project of my cycle engineering at ENSIAS,it is a an interactive plateform that helps unversities anaging the deliberation of students at the end of the year</div>
+                            <a href="files/pfa.mp4" target="_blank" class="blog-slider__button button--flex">Demo <i class="uil uil-play button__icon"></i></a>
+                        </div>
+                    </div>
+                    <!--project 3-->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="images/javaproject.png" alt="project item">
+                        </div>
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code">April 2023</span>
+                            <div class="blog-slider__title">Hotel Reservation System</div>
+                            <div class="blog-slider__text">it's a mini-project that i work on using Java that manages hotel room reservations</div>
+                            <a href="https://github.com/azizElb444/Hotel-Reservation-System" target="_blank" class="blog-slider__button button--flex">Demo <i class="uil uil-play button__icon"></i></a>
+                        </div>
+                    </div>
+                    <!--project 1-->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="" alt="project item">
+                        </div>
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code">year</span>
+                            <div class="blog-slider__title"></div>
+                            <div class="blog-slider__text"></div>
+                            <a href="#project" class="blog-slider__button button--flex">Demo <i class="uil uil-play button__icon"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog-slider__pagination"></div>
+                </div>
+            </div>
+            
         </section>
 
 
@@ -502,6 +559,10 @@
     <script src="js/argon-design-system.js"></script>
     <!-- TypeWriter effects-->
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
     <!--my script -->
     <script src="js/script.js"></script>
   </body>
